@@ -28,6 +28,7 @@ class ParticipanteViewSet(viewsets.ModelViewSet):
             return ParticipanteSerializerV2
         return ParticipanteSerializer
     
+    
 class InscricaoViewSet(viewsets.ModelViewSet):
     authentication_classes = [BasicAuthentication]
     permission_classes = [IsAdminUser]
